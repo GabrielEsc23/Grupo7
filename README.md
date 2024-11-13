@@ -1,6 +1,6 @@
 ### Proyecto de Movimiento Parabólico
 
-Este proyecto implementa un programa en Java para resolver cálculos de movimiento parabólico en física. Permite al usuario ingresar valores iniciales de velocidad y ángulo, y calcula componentes de velocidad y desplazamiento, así como la altura máxima alcanzada. El código maneja posibles errores en la entrada y da retroalimentación detallada al usuario.
+Este programa implementa un programa en Java para resolver cálculos de movimiento parabólico en física. Permite al usuario ingresar valores iniciales de velocidad y ángulo, y calcula componentes de velocidad y desplazamiento, así como la altura máxima alcanzada. El código maneja posibles errores en la entrada y da retroalimentación detallada al usuario.
 
 ### Contenidos
 
@@ -16,7 +16,7 @@ Este programa permite realizar cálculos relacionados con el movimiento paraból
 
 ### Estructura del programa
 
-El proyecto está organizado en dos archivos principales:
+El programa está organizado en dos archivos principales:
   1. Main.java: Archivo principal donde se ejecuta la lógica del programa y se interactúa con el usuario.
   2. Parabolico.java: Contiene la clase Parabolico que implementa los métodos y cálculos del movimiento parabólico.
      
