@@ -33,7 +33,7 @@ Al ejecutar el programa, se solicitarán los valores de velocidad inicial y áng
   3. Desplazamiento horizontal en un tiempo de 2.45 segundos
   4. Altura máxima alcanzada, calculada con gravedad en tipo flotante y entero.
      
-La salida del pograma se mostrará como a continuación:
+La salida del pograma se mostrará como a continuación:  
     Resolviendo ejercicio de movimiento parabólico  
     Ingrese el valor de la velocidad inicial (m/s): 20  
     Ingrese el valor del ángulo que se forma al realizar el movimiento: 45  
