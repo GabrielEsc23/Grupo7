@@ -19,9 +19,13 @@ public class Main {
         float velocidady= ejercicio1.calcularComponenteY();
         System.out.println("El valor de la velocidad inicial en X es: " + velocidadx + "m/s");
         System.out.println("El valor de la velocidad inicial en Y es: "+ velocidady + "m/s");
-         double desplazamientox=ejercicio1.Resultado();
+         double desplazamientox=ejercicio1.ResultadoX();
         System.out.println("El desplazamiento horizontal del objeto en un tiempo de 2.45 segundos es:"+ desplazamientox + "metros");
-
+         double resultadoFlotante= ejercicio1.ResultadoY1();
+         double resultadoEntero= ejercicio1.ResultadoY2();
+        System.out.println("La altura maxima en Y con la gravedad como flotante es:" + resultadoFlotante);
+        System.out.println("La altura maxima en Y con la gravedad como entero es:" + resultadoEntero);
 
     }
+
 }

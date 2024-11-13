@@ -3,6 +3,8 @@ package Ejercicio;
 public class Parabolico {
      private float vInicial;
      private float angulo;
+     private double gravedad=9.8;
+    int gravedadEntero = (int) gravedad;
     public Parabolico() {
         this.vInicial = 0;
         this.angulo = 0;
@@ -25,8 +27,17 @@ public class Parabolico {
     public float calcularComponenteY() {
         return (float) (vInicial * Math.sin(Math.toRadians(angulo)));
     }
-    public double Resultado(){
+
+    public double ResultadoX(){
         double resultado=0 + (calcularComponenteX())*(2.45)+(1/2)*(0)*Math.pow(2.45,2);
+        return resultado;
+    }
+    public double ResultadoY1(){
+    double resultado=(Math.pow(calcularComponenteY(),2))/(gravedad*2);
+    return resultado;
+    }
+    public double ResultadoY2(){
+        double resultado=(Math.pow(calcularComponenteY(),2))/(gravedadEntero*2);
         return resultado;
     }
 }
