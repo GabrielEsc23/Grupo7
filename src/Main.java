@@ -7,12 +7,10 @@ public class Main {
             Parabolico ejercicio1 = new Parabolico();
             System.out.println("Resolviendo ejercicio de movimiento parabólico");
 
-
-            System.out.println("Ingrese el valor de la velocidad inicial: ");
+            System.out.println("Ingrese el valor de la velocidad inicial (m/s): ");
             float VInicial = sc.nextFloat();
             ejercicio1.setvInicial(VInicial);
 
-            
             System.out.println("Ingrese el valor del ángulo que se forma al realizar el movimiento: ");
             float angulo = sc.nextFloat();
             ejercicio1.setAngulo(angulo);
@@ -33,7 +31,7 @@ public class Main {
             System.out.println("El resultado de la altura máxima con la gravedad como entero es: " + gravedadEntero);
         } catch (Exception e) {
             
-            System.out.println("Ocurrió un error al procesar los datos.");
+            System.out.println("**** Ocurrió un error al procesar los datos. ****");
             System.out.println("Detalles del error: " + e.getMessage());
         }
     }
