@@ -34,14 +34,14 @@ Al ejecutar el programa, se solicitarán los valores de velocidad inicial y áng
   4. Altura máxima alcanzada, calculada con gravedad en tipo flotante y entero.
      
 La salida del pograma se mostrará como a continuación:
-    Resolviendo ejercicio de movimiento parabólico
-    Ingrese el valor de la velocidad inicial (m/s): 20
-    Ingrese el valor del ángulo que se forma al realizar el movimiento: 45
-    El valor de la velocidad inicial en X es: 14.14 m/s
-    El valor de la velocidad inicial en Y es: 14.14 m/s
-    El desplazamiento horizontal del objeto en un tiempo de 2.45 segundos es: 34.65 metros
-    El resultado de la altura máxima con la gravedad como flotante es: 10.20
-    El resultado de la altura máxima con la gravedad como entero es: 11.11
+    Resolviendo ejercicio de movimiento parabólico  
+    Ingrese el valor de la velocidad inicial (m/s): 20  
+    Ingrese el valor del ángulo que se forma al realizar el movimiento: 45  
+    El valor de la velocidad inicial en X es: 14.14 m/s  
+    El valor de la velocidad inicial en Y es: 14.14 m/s  
+    El desplazamiento horizontal del objeto en un tiempo de 2.45 segundos es: 34.65 metros  
+    El resultado de la altura máxima con la gravedad como flotante es: 10.20  
+    El resultado de la altura máxima con la gravedad como entero es: 11.11  
 
 ### Manejo de excepciones
 
